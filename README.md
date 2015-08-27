@@ -166,7 +166,7 @@ with_machine_options({
     chef_version: "12.4.1",
     prerelease: "false",
     chef_client_timeout: 120*60, # Default: 2 hours
-    chef_config: "log_level :debug\\n", # String containing additional text to inject into client.rb
+    chef_config: "log_level :debug\n", # String containing additional text to inject into client.rb
     chef_server: "http://my.chef.server/", # TODO could conflict with https://github.com/chef/chef-provisioning#pointing-boxes-at-chef-servers
     bootstrap_proxy: "http://localhost:1234",
     ssl_verify_mode: :verify_peer,
